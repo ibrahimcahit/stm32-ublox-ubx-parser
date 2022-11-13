@@ -98,7 +98,7 @@ int main(void)
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
 
-  	// Start to configure GNSS module. Set baudrate to 115200, disable NMEA, set rate to 5 Hz, etc.
+  	// Start to configure GNSS module. Set baudrate to 115200
 	GNSS_Init(&GNSS_Handle, &huart1);
 
 	// Because we changed GNSS baud rate to 115200, we need to change also UART1 baud rate and init it again.
