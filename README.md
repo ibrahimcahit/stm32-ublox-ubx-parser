@@ -13,7 +13,7 @@ Create instance
 GNSS_StateHandle GNSS_Handle;
 ```
 
-Start to configure GNSS module. Set baudrate to 115200, disable NMEA, set rate to 5 Hz, etc.
+Start to configure GNSS module. Set baudrate to 115200
 ```
 GNSS_Init(&GNSS_Handle, &huart1);
 ```
